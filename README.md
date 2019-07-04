@@ -1,4 +1,6 @@
-### ButterflEye - dynamically generates an eye-tracker compatible overlay for Bootstrap 3 sites.
+# ButterflEye 
+
+ButterflEye dynamically generates an eye-tracker compatible overlay for Bootstrap 3 sites.
 
 ## Usage
 
@@ -90,13 +92,13 @@ Specify all dependencies loaded via Node.JS.
 
 > Check [NPM](https://npmjs.org/doc/json.html) for more details.
 
-## Team
-
-jQuery ButterflEye was made with love by these guys
+## People
 
 - [Alastair Chetcuti](mailto:alastair.chetcuti@gmail.com)
 - [Chris Porter](https://www.um.edu.mt/profile/chrisporter)
 
-## License
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+## License
+[GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html)
