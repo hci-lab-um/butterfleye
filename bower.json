@@ -1,0 +1,20 @@
+{
+	"name": "jquery-butterfleye",
+	"version": "0.0.1",
+	"homepage": "http://butterfleye.org",
+	"authors": [
+		"Alastair Chectuci <alastair.chetcuti@um.edu.mt>",
+	  	"Chris Porter <chris.porter@um.edu.mt>"
+	],
+	"description": "ButterflEye - dynamically generates an eye-tracker compatible overlay for Bootstrap sites.",
+	"main": "src/jquery.butterfleye.js",
+	"keywords": [
+		"jquery",
+		"plugin",
+		"eye-tracker",
+		"eyetribe",
+	  	"tobii",
+	  	"accessibility"
+	],
+	"license": "MIT"
+}

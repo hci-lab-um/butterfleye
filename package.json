@@ -1,0 +1,50 @@
+{
+  "name": "jquery-butterfleye",
+  "version": "3.5.0",
+  "description": "ButterflEye - dynamically generates an eye-tracker compatible overlay for Bootstrap sites.",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "eye-tracker",
+    "eyetribe",
+    "tobii",
+    "accessibility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://chris_porter@bitbucket.org/chris_porter/butterfleye.git"
+  },
+  "bugs": {
+    "url": "https://chris_porter@bitbucket.org/chris_porter/butterfleye.git/issues"
+  },
+  "author": {
+    "name": "UX Design Lab, Faculty of ICT, University of Malta",
+    "email": "chris.porter@um.edu.mt",
+    "url": ""
+  },
+  "homepage": "",
+  "contributors": [
+    {
+      "name": "Alastair Chetcuti",
+      "email": "alastair.chetcuti@um.edu.mt"
+    },
+    {
+      "name": "Chris Porter",
+      "email": "chris.porter@um.edu.mt",
+      "url": "cisforum.com"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  }
+}

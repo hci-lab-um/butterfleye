@@ -1,0 +1,329 @@
+.overlay {
+
+    display:none;
+    width:100%;
+    position:fixed;
+    z-index:15000;
+    overflow: auto;
+}
+
+.ok {
+	width: 24em;
+	height: 18em;
+	margin: 0 auto;
+}
+
+.okDiv {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.yes {
+    width: 18em;
+    height: 18em;
+}
+
+.no{
+    width: 18em;
+    height: 18em;
+    float: right;
+}
+
+.spanYes, .spanNo, .spanOk{
+    font-size: 5em;
+}
+
+.inputContainer{
+    float: left;
+    z-index: 16000;
+    display: block;
+}
+
+.backSettings{
+	z-index: 17000;
+	display: block;
+	top: 0;
+	left: 0;
+	margin: 1em 1em 1em 1em;
+	width: 12em;
+	height: 8em;
+	position: fixed;
+}
+
+.settingsButtonContainer{
+	z-index: 16000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+}
+
+.spanBtn{
+    font-size: 200%;
+    white-space: normal;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.spanNav{
+    font-size:160%;
+    white-space: normal;
+    font-weight: bold;
+    padding: 4% 0 4% 0;
+    color: #000000;
+}
+
+.spanNav2{
+    font-size:160%;
+    white-space: normal;
+    font-weight: bold;
+    padding: 4% 0 4% 0;
+    color: #000000;
+}
+
+.btn.btn-default.settingsButtons{
+
+	display:inline-block;
+	width:16em;
+	height:14em;
+	margin: 1em 2em 1em 0;
+	clear: both;
+	position: relative;
+
+}
+
+.settingsBtnContSpans{
+	font-size: 160%;
+	font-weight: bold;
+}
+
+.initModalInfo{
+    text-align: center;
+}
+
+.btn.btn-primary.submitBtn{
+    display:block;
+    top:0;
+    right:0;
+    width:14em;
+    height:12em;
+    margin:1em 1em 1em 1em;
+}
+
+.btnContainer{
+    float: right;
+    z-index: 16000;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.helperContainer{
+    float: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 16000;
+    margin-right: 1em;
+}
+
+.restContainer{
+    float: right;
+    z-index: 16000;
+    position: fixed;
+    width: 20em;
+    height: 17em;
+    margin: 1em 1em 1em 1em;
+    top: 0;
+
+    border-style: solid;
+    border-width: thin;
+    border-radius: 4px;
+    text-align: center;
+    display: table;
+}
+
+.spanRest{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.utilityContainer{
+    right: 0;
+    position: fixed;
+    z-index: 16000;
+    display: block;
+}
+
+.navLinkContainer{
+    display: block; /*WAS inline-block*/
+    z-index: 16000;
+    position: absolute;
+}
+
+.navLinkContainer_level2{
+
+    z-index: 16000;
+    position: absolute;
+}
+
+.btn.btn-default.inputCls{
+    top:0;
+    left:0;
+    display:block;
+    width:14em;
+    height:12em;
+    margin: 1em 2em 1em 0;
+    clear: both;
+    position: relative;
+
+}
+.btn.btn-default.navCls{
+    top:0;
+    left:0;
+    display:block;
+    width:14em;
+    height:12em;
+    margin: 1em 2em 1em 0;
+    clear: both;
+    padding: 4% 0 4% 0;
+}
+
+.btn.btn-default.navCls2{
+    top:0;
+    left:0;
+    display:block;
+    width:14em;
+    height:12em;
+    margin: 1em 2em 1em 0;
+    clear: both;
+    padding: 4% 0 4% 0;
+}
+
+.inputSpan{
+    font-size: 160%;
+    white-space: normal;
+    font-weight: bold;
+    color: #000000;
+}
+
+.btn.btn-danger.exit{
+    right:0;
+    bottom:0;
+    display:block;
+    width:14em;
+    height:12em;
+    margin:1em 0 1em 1em;
+}
+
+.spanExit{
+    font-size: 200%;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn.btn-danger.back{
+    right:0;
+    bottom:0;
+    display:none;
+    width:16em;
+    height:10em;
+    margin:1em 2em 1em 0;
+}
+
+.spanBack{
+    font-size: 200%;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.scrollContainer{
+    /*float:right;*/
+    position: fixed;
+    /*right: 0;*/
+    z-index: 16000;
+}
+
+.btn.btn-success.scroll_up, .btn.btn-success.scroll_down{
+    width: 10em;
+    height:10em;
+    margin:1em 1em 1em 1em;
+    display:block;
+    clear:both;
+}
+
+.spanUp, .spanDown{
+    font-size: 200%;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.iconDown,.iconUp,.iconLeft{
+    font-size: 200%;
+}
+
+/** {
+    cursor: none !important;
+}*/
+
+.myAutoComplete {
+
+    border-radius: 0px;
+    list-style-type: none;
+    max-height: 120px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    padding-left: 10px;
+}
+/*.myAutoComplete.source:hover {
+    background: #454545;
+}*/
+
+.myAutoComplete-button{
+    background-color: darkorchid;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 8px 0 0 0;
+}
+
+.myAutoComplete-menu-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container.settingsContainer {
+	position: relative;
+	z-index: 16000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	top: 40%;
+	transform: translateY(-50%);
+}
+
+.container.defaultSettingsContainer {
+	position: fixed;
+	z-index: 16000;
+	display: block;
+}
+
+.container.settingsOptionsContainer {
+	position: fixed;
+	z-index: 16000;
+	display: block;
+}
+
+
+
+
+
