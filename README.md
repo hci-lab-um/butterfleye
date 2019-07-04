@@ -1,4 +1,4 @@
-### ButterflEye - dynamically generates an eye-tracker compatible overlay for Bootstrap sites.
+### ButterflEye - dynamically generates an eye-tracker compatible overlay for Bootstrap 3 sites.
 
 ## Usage
 
@@ -90,31 +90,13 @@ Specify all dependencies loaded via Node.JS.
 
 > Check [NPM](https://npmjs.org/doc/json.html) for more details.
 
-## Guides
-
-#### How did we get here?
-
-Have you got in this repo and still not sure about using this boilerplate?
-
-Well, extending jQuery with plugins and methods is very powerful and can save you and your peers a lot of development time by abstracting your most clever functions into plugins.
-
-[This awesome guide](https://github.com/jquery-boilerplate/boilerplate/wiki/How-did-we-get-here%3F), adapted from [jQuery Plugins/Authoring](http://docs.jquery.com/Plugins/Authoring), will outline the basics, best practices, and common pitfalls to watch out for as you begin writing your plugin.
-
 ## Team
 
 jQuery ButterflEye was made with love by these guys
 
-[![Alastair Chetcuti](http://gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93?s=70)]() | [![Chris Porter](http://gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275?s=70)](http://cisforum.com)
---- | --- | --- | --- | --- | --- | ---
-
-## Contributing
-
-Check [CONTRIBUTING.md](https://github.com/jquery-boilerplate/boilerplate/blob/master/CONTRIBUTING.md) for more information.
-
-## History
-
-Check [Releases](https://github.com/jquery-boilerplate/jquery-boilerplate/releases) for detailed changelog.
+- [Alastair Chetcuti](mailto:alastair.chetcuti@gmail.com)
+- [Chris Porter](https://www.um.edu.mt/profile/chrisporter)
 
 ## License
 
-[MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
